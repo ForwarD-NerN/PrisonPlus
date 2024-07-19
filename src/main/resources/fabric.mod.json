@@ -11,7 +11,7 @@
   "contact": {
   },
 
-  "license": "All rights reserved",
+  "license": "MIT",
   "icon": "assets/prisonplus/icon.png",
 
   "environment": "*",
