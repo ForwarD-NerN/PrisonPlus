@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "NHN",
+    " S "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "N": {
+      "item": "minecraft:string"
+    },
+    "H": {
+      "item": "minecraft:netherite_hoe"
+    },
+    "S": {
+      "item": "minecraft:shears"
+    }
+  },
+  "result": {
+    "item": "minecraft:shears",
+    "count": 1,
+    "data": {
+      "Scissors": true,
+      "display": {
+        "Name": "{\"text\":\"§fНожницы\"}"
+      },
+      "Enchantments": [{"id": "unbreaking","lvl": 5}]
+    }
+  }
+}

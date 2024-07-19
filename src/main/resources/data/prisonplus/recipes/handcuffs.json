@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#C#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chain"
+    },
+    "C": {
+      "item": "minecraft:diamond_chestplate"
+    }
+  },
+  "result": {
+    "item": "minecraft:lead",
+    "count": 1,
+    "data": {
+      "Handcuffs": true,
+      "display": {
+        "Name": "{\"text\":\"§fНаручники\"}"
+      },
+      "Enchantments": [{}]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 1,
+    "data": {
+      "Baton": true,
+      "display": {
+        "Name": "{\"text\":\"§fДубинка\"}"
+      },
+      "Enchantments": [{}]
+    }
+  }
+}

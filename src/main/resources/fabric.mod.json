@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "prisonplus",
+  "version": "${version}",
+
+  "name": "Prison+",
+  "description": "Adds prisons to Minecraft",
+  "authors": [
+    "ForwarD NerN"
+  ],
+  "contact": {
+  },
+
+  "license": "All rights reserved",
+  "icon": "assets/prisonplus/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.nern.prisonplus.PrisonPlus"
+    ],
+    "client": [
+      "ru.nern.prisonplus.PrisonPlusClient"
+    ]
+  },
+  "mixins": [
+    "prisonplus.mixins.json"
+  ],
+
+  "depends": {
+    "fabric": "*",
+    "stimuli": "*",
+    "minecraft": ">=1.20",
+    "nbt-recipes": "*",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

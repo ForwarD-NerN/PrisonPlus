@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.nern.prisonplus.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "LeashKnotEntityMixin",
+    "LivingEntityMixin",
+    "ServerPlayerEntityMixin",
+    "ServerWorldMixin"
+  ],
+  "client": [
+    "client.DebugRendererMixin",
+    "client.InventoryScreenMixin",
+    "client.MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
